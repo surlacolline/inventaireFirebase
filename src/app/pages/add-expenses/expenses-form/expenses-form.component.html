@@ -1,0 +1,16 @@
+<form action="" [formGroup]="expensesForm">
+    <mat-form-field appearance="standard">
+        <mat-label>Nom</mat-label>
+        <input matInput [formControl]="name" placeholder="Nom de la dépense">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <!-- <mat-hint>Hint</mat-hint> -->
+    </mat-form-field>
+
+    <mat-form-field appearance="standard">
+        <mat-label>Montant</mat-label>
+        <input matInput [formControl]="amount" placeholder="Montant">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <!-- <mat-hint>Hint</mat-hint> -->
+    </mat-form-field>
+    <button type="submit">Ajouter</button>
+</form>
