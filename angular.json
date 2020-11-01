@@ -121,8 +121,13 @@
               "devServerTarget": "inventaireFirebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "inventaireFirebase"
 }

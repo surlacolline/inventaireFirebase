@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "inventaireback"
+  },
+  "targets": {
+    "inventaireback": {
+      "hosting": {
+        "inventaireFirebase": [
+          "inventaireback"
+        ]
+      }
+    }
+  }
+}
