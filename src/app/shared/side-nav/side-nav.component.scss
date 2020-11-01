@@ -1,14 +1,22 @@
-.example-container {
+.container-app {
     height: 100%;
+    position: relative;
   }
   
-  .example-sidenav-content {
+   .content-app {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
   }
   
-  .example-sidenav {
+  .sidenav {
     padding: 20px;
+  }
+  #menu-fab-btn{
+  
+    right: 20px;
+    bottom: 10px;
+    left: auto;
+    position: absolute;
   }

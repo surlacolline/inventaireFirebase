@@ -16,8 +16,8 @@ export class SideNavComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigate(): void {
-    this.router.navigate(['/ajout']);
+  navigate(route: string): void {
+    this.router.navigate([route]);
     this.drawer.toggle();
   }
 
